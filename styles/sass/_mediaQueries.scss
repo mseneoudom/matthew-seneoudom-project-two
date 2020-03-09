@@ -87,6 +87,11 @@
 
     .sectionContact{
         .sectionContainer{
+            justify-content:center;
+            
+            h3{
+                text-align:center;
+            }
             .contactTypeContainer{
                 flex-direction:column;
 
