@@ -1,0 +1,20 @@
+.sectionInformation{
+    display:flex;
+
+    .imageContainer{
+        flex: 1 0 60%;
+        max-width:1075px;
+
+    }
+
+    .textContainer{
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        padding: 8% 0 8% 5%;    
+        flex:1 0 40%;
+    }
+    .textContainer>*{
+        width:100%;
+    }
+}

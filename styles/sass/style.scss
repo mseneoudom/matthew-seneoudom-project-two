@@ -1,0 +1,30 @@
+@import 'setup';
+@import 'variableMixins';
+@import 'global';
+@import 'allFontStyling'; //All font styles
+// Global Header
+@import 'header';
+// Global Nav Top
+@import 'nav';
+// Global Footer
+@import 'footer';
+// Landing Page index.html
+@import 'sectionAbout';
+@import 'sectionFeatures';
+@import 'sectionTestimonial';
+@import 'sectionExplore';
+@import 'sectionInformation';
+// Blog Index
+@import 'sectionBlog';
+@import 'sectionReview';
+@import 'sectionRelated';
+@import 'sectionComments';
+
+//Contact Index
+@import 'sectionContact';
+
+// Hover and Focus
+@import 'hoverFocus';
+
+//Media Queries
+@import 'mediaQueries'

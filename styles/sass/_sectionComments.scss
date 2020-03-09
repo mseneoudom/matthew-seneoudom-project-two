@@ -1,0 +1,74 @@
+.commentsSection{
+    .sectionContainer{
+        padding:2%;
+        background:white;
+        display:flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        
+        .commentContainer{
+            display:flex;
+            justify-content: space-around;
+            margin-top:2%;
+            // flex-wrap:wrap;
+
+            .commentBubble{
+                display:flex;
+                flex-wrap:wrap;
+                background:$veryLightPink;
+                width:90%;
+                padding:1% 2%;
+                position:relative;
+
+                &:before{
+                    content:" ";
+                    position:absolute;
+                    left:-1%;
+                    border-top:5px solid transparent;
+                    border-bottom:5px solid transparent;
+                    border-top:5px solid transparent;
+                    border-right :15px solid $veryLightPink;
+                }
+            }
+        }
+        // 
+        .commentInputContainer{
+            display:flex;
+            flex-wrap:wrap;
+            width:100%;
+            padding:4% 0;
+
+            form{
+                margin-top:2%;
+                width:100%;
+
+                fieldset{
+                    display:flex;
+                    justify-content:space-between;
+                    flex-wrap:wrap;
+
+                    input, textarea{
+                        width:30%;       
+                        padding:1% 0;
+                        background:none;
+                        border:none;
+                        border-bottom:1px solid $lightPink;
+                    }
+
+                    textarea{
+                        width:100%;
+                        resize:none;
+                    }
+
+                    button{
+                        background:$bsGreen;
+                        padding:1% 2%;
+                        border:1px solid transparent;
+                        text-transform:uppercase;
+                        margin-top:2%;
+                    }
+                }
+            }
+        }
+    }
+}

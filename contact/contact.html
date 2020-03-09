@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Sunshine</title>
+    <!-- Stylesheet Link -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <!-- Font Awsome Link/Kit -->
+    <script src="https://kit.fontawesome.com/1a100a9ca4.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700|Poppins:400,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="contactHeader"></header>
+    <!-- Nav Bar -->
+    <nav class="fixedNav">
+        <label for="hamburgerMenu">
+            <i class="fas fa-bars mobileIcons mobileMenu"></i>
+        </label>
+        <input type="checkbox" name="hamburgerMenu" id="hamburgerMenu" checked="">
+        <ul class="bleed">
+            <li>
+                <a href="../index.html">
+                    <i class="fas fa-home mobileIcons"></i>
+                    <p>Home</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-info-circle window- mobileIcons"></i>
+                    <p>About</p>
+                    </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-calendar-alt mobileIcons"></i>
+                    <p>Reserve</p>
+                </a>
+            </li>
+            <li class="logo">
+                <a href="../index.html">
+                    <h1>Sunshine</h1>
+                </a>
+            </li>
+            <li>
+                <a href="../blog/blog.html">
+                    <i class="fas fa-blog mobileIcons"></i>
+                    <p>Blog</p>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <i class="fas fa-address-book mobileIcons"></i>
+                    <p>Contact</p>
+                </a>
+            </li>
+            <li>
+                <label for="searchButton">
+                    <i class="fas fa-search mobile-icons"></i>
+                </label>
+                <input type="checkbox" name="searchButton" id="searchButton">
+                <input type="text" name="searchBar" id="searchBar">
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-shopping-bag mobile-icons"></i>
+                    <div class="shoppingBagQuantity">
+                        <p>2</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- End of Nav Bar -->
+    <section class="sectionContact">
+        <div class="sectionContainer bleed">
+            <h3>Contact details</h3>
+            <p>Design cute expedition, excursion fun modern website clean website traveling travelblogging traveling theme. Travel fun simple design, simple fun design.</p>
+            <div class="contactTypeContainer">
+                <div class="contactContainer">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Phone</h4>
+                    <p>Phone 01: (009) 8547 632521</p>
+                    <p>Phone 02: (084) 964 4788</p>
+                </div>
+                <div class="contactContainer">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Address</h4>
+                    <p>123 King Str, 4th Floor, Utral Hosue Building, Honolulu, Hawaii</p>
+                </div>
+                <div class="contactContainer">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>support@sunshine.com</p>
+                    <p>hello@sunshine.com</p>
+                </div>
+            </div>
+        <form action="contactMessage.php">
+            <fieldset>
+                <label for="commentInputUsername" class="visually-hidden">Enter your name</label>
+                <input type="text" name="commentInputUsername" id="commentInputUsername" placeholder="Enter your name...">
+                <label for="commentInputEmail" class="visually-hidden">Enter your email</label>
+                <input type="email" name="commentInputEmail" id="commentInputEmail" placeholder="Enter your email" required>
+                <label for="commentInputSubject" class="visually-hidden">Subject</label>
+                <input type="email" name="commentInputSubject" id="commentInputSubject" placeholder="Subject (Optional)" required>
+                <textarea name="commentInputTextArea" id="commentInputTextArea" cols="30" rows="8" placeholder="Here goes your comment"></textarea>
+                <input type="submit" value="Send Message">
+            </fieldset>
+        </form>
+        </div>
+    </section>
+    <div class="contactBackgroundContainer"></div>
+    <!-- Start of Footer -->
+    <footer>
+        <div class="bleed">
+            <nav class="siteMap">
+                <ul>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Affiliate</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </nav>
+            <form action="emailRegister.php">
+                <fieldset>
+                    <legend>Sign up for get our newsletter</legend>
+                    <label for="emailRegister" class="visually-hidden">Your Email</label>
+                    <input type="email" name="emailRegister" id="emailRegister" placeholder="Your Email..." for="emailRegister">
+                    <button type="submit">
+                        <i class="far fa-paper-plane"></i>
+                    </button>
+                </fieldset>
+            </form>
+            <div class="copyrightContainer">
+                <p>&copy;2018 Sunshine Hotel</p>
+            </div>
+            <nav class="socialMediaNav">
+                <ul>
+                    <li><a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+</html>

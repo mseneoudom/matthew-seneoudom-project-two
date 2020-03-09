@@ -1,0 +1,1744 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: .35em .75em .625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+  /* added line */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.bleed {
+  max-width: 1400px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  padding: 2% 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.bleed {
+  max-width: 1400px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  padding: 2% 0;
+}
+
+h1 {
+  font-family: 'Playfair Display';
+  font-size: 58px;
+  font-size: 5.8rem;
+  font-weight: bold;
+  line-height: 26px;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  letter-spacing: 8px;
+  color: #999999;
+}
+
+h3 {
+  font-family: 'Playfair Display';
+  font-size: 48px;
+  font-size: 4.8rem;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: black;
+}
+
+h4 {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+nav ul li a, nav ul li a p, nav ul li a i, p, fieldset legend, label i, input[name="searchBar"] {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: black;
+}
+
+nav .mobileIcons {
+  color: black;
+}
+
+nav a {
+  font-weight: bold;
+}
+
+.fixedNav ul li a .shoppingBagQuantity p {
+  font-size: 10px;
+  font-size: 1rem;
+  color: black;
+}
+
+p {
+  color: #999999;
+  line-height: 30px;
+}
+
+.currentPage {
+  color: #CCCCCC;
+}
+
+.quoteAuthor {
+  color: black;
+  font-weight: bold;
+}
+
+.sectionTestimonial .quoteText {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  font-size: 2.4rem;
+  text-align: center;
+  line-height: 36px;
+  font-style: italic;
+}
+
+.sectionTestimonial .starReviewContainer i {
+  font-size: 24px;
+  font-size: 2.4rem;
+  color: #F6AB09;
+}
+
+.sectionTestimonial p a {
+  color: black;
+}
+
+.sectionInformation .state {
+  color: black;
+  font-weight: bold;
+  font-family: 'Playfair Display';
+}
+
+.sectionInformation .state span {
+  color: #CCCCCC;
+}
+
+.sectionInformation .email span {
+  color: black;
+  font-weight: bold;
+  font-family: 'Playfair Display';
+}
+
+.sectionInformation .phone {
+  font-weight: bold;
+}
+
+.sectionInformation .phoneNumber {
+  color: black;
+  font-weight: bold;
+  font-family: 'Playfair Display';
+  font-size: 30px;
+  font-size: 3rem;
+}
+
+footer .siteMap a, footer .siteMap fieldset legend {
+  color: #999999;
+}
+
+footer .siteMap .termsConditions {
+  color: white;
+}
+
+footer fieldset legend {
+  color: #999999;
+}
+
+footer .socialMediaNav i {
+  color: white;
+}
+
+footer form input, footer form i, footer form input[placeholder] {
+  color: #CCCCCC;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-family: 'Poppins';
+}
+
+footer form i {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+.sectionFeatures .sectionContainer i {
+  height: 100%;
+  margin: 1% 2%;
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+
+.sectionTestimonial button {
+  position: absolute;
+  background: none;
+  border: 1px solid transparent;
+  font-size: 40px;
+  font-size: 4rem;
+  color: #999999;
+}
+
+.blogShare a i {
+  font-size: 18px;
+  font-size: 1.8rem;
+  color: #CCCCCC;
+}
+
+.blogShare a .fa-twitter {
+  color: #00acee;
+}
+
+#blogBody h3 {
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+  font-size: 28px;
+  font-size: 2.8rem;
+}
+
+.blogTitle {
+  font-family: 'Playfair Display';
+  font-size: 35px;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: black;
+}
+
+.relatedPosts p, .relatedPosts h4 {
+  color: #999999;
+}
+
+.commentsSection .commentInputContainer button {
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.commentUsername {
+  font-weight: bold;
+  color: black;
+}
+
+.commentUsername a {
+  color: turquoise;
+  font-style: italic;
+}
+
+.commentTimeEntry {
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.sectionContact i {
+  font-size: 20px;
+  font-size: 2rem;
+}
+
+form[action="contactMessage.php"] input[type="submit"] {
+  margin-top: 2%;
+  width: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.overline {
+  position: absolute;
+  top: 0;
+  left: 12%;
+  height: 2px;
+  width: 10%;
+  background: black;
+}
+
+header {
+  height: 100vh;
+  background: url(../media/home-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blogHeader {
+  background: url(../blog/media/blog-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.contactHeader {
+  height: 60vh;
+  background: url(../contact/media/contact-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contactBackgroundContainer {
+  height: 60vh;
+  background: url(../contact/media/contact-2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fixedNav {
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: white;
+  border-bottom: 1px solid #EDEDED;
+  z-index: 1;
+}
+
+.fixedNav .mobileMenu {
+  font-size: 20px;
+  font-size: 2rem;
+  position: absolute;
+  left: -100%;
+  top: -100%;
+}
+
+.fixedNav #hamburgerMenu {
+  display: none;
+}
+
+.fixedNav #hamburgerMenu:checked ~ ul {
+  top: 0;
+}
+
+.fixedNav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.fixedNav ul li {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fixedNav ul li a {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fixedNav ul li a .shoppingBagQuantity {
+  position: absolute;
+  background: #8bf1f1;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  right: -40%;
+  bottom: -40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fixedNav ul li a .mobileIcons {
+  display: none;
+}
+
+.fixedNav ul li input[type="checkbox"] {
+  display: none;
+}
+
+.fixedNav ul li input[type="checkbox"]:checked ~ label[for="searchButton"] {
+  position: absolute;
+}
+
+.fixedNav ul li input[type="checkbox"]:checked ~ input[name="searchBar"] {
+  display: initial;
+  position: relative;
+  width: 100%;
+  height: 10px;
+  padding: 4%;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+}
+
+.fixedNav ul li input[name="searchBar"] {
+  border: 1px solid transparent;
+  height: 0;
+  width: 0;
+  position: absolute;
+  bottom: 4px;
+  left: 5px;
+  background: none;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+footer {
+  background: #2a2929;
+  padding: 2% 0;
+}
+
+footer .bleed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .siteMap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 60%;
+          flex: 1 0 60%;
+  border-bottom: 1px solid #999999;
+}
+
+footer .siteMap ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+footer .siteMap ul li {
+  height: 20%;
+}
+
+footer form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 40%;
+          flex: 1 0 40%;
+  position: relative;
+  border-bottom: 1px solid #999999;
+}
+
+footer form input {
+  padding: 2% 0;
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #999999;
+}
+
+footer form button {
+  position: absolute;
+  right: 0;
+  background: none;
+  border: 1px solid transparent;
+}
+
+footer .copyrightContainer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 85%;
+          flex: 1 0 85%;
+  padding-top: 2%;
+}
+
+footer .socialMediaNav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 15%;
+          flex: 1 0 15%;
+  padding-top: 2%;
+}
+
+footer .socialMediaNav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionAbout {
+  background: #EDEDED;
+  padding: 7.5% 0 15% 0;
+}
+
+.sectionAbout .sectionContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sectionAbout .sectionContainer h2 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 8%;
+}
+
+.sectionAbout .sectionContainer .imageContainer {
+  position: relative;
+  border: 15px solid white;
+  max-height: calc(30px + 416px);
+}
+
+.sectionAbout .sectionContainer .imageContainer .stamp {
+  position: absolute;
+  left: -40%;
+  bottom: -35%;
+}
+
+.sectionAbout .sectionContainer .textContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 40%;
+  padding: 2% 5%;
+  position: relative;
+}
+
+.sectionAbout .sectionContainer .textContainer .overline {
+  position: absolute;
+  top: 0;
+  left: 12%;
+  height: 2px;
+  width: 10%;
+  background: black;
+}
+
+.sectionFeatures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionFeatures .imageContainer {
+  width: 30%;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.sectionFeatures .sectionContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  padding: 2% 0;
+}
+
+.sectionFeatures .sectionContainer .textContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  width: 45%;
+  margin: 2% 0;
+}
+
+.sectionTestimonial {
+  padding: 5% 0;
+  background: url(../media/pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sectionTestimonial .sectionContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: white;
+  padding: 4% 0;
+}
+
+.sectionTestimonial .leftArrowButton {
+  left: -5%;
+  top: 50%;
+}
+
+.sectionTestimonial .rightArrowButton {
+  right: -5%;
+  top: 50%;
+}
+
+.sectionTestimonial .textContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2% 10%;
+}
+
+.sectionTestimonial .textContainer > * {
+  padding: 4% 0;
+}
+
+.sectionTestimonial .textContainer .starReviewContainer {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+.sectionExplore {
+  background: url(../media/pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5% 0 10% 0;
+}
+
+.sectionExplore .sectionContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionExplore .sectionContainer h2, .sectionExplore .sectionContainer h3 {
+  text-align: center;
+  width: 100%;
+  padding: 2% 0;
+}
+
+.sectionExplore .sectionContainer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionExplore .sectionContainer ul li {
+  padding: 2% 0;
+}
+
+.sectionInformation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionInformation .imageContainer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 60%;
+          flex: 1 0 60%;
+  max-width: 1075px;
+}
+
+.sectionInformation .textContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 8% 0 8% 5%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 40%;
+          flex: 1 0 40%;
+}
+
+.sectionInformation .textContainer > * {
+  width: 100%;
+}
+
+#blogBody {
+  background: #EDEDED;
+}
+
+.blogSection .sectionContainer {
+  padding: 5% 2%;
+  background: white;
+  top: -100px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blogSection .sectionContainer h2, .blogSection .sectionContainer h3, .blogSection .sectionContainer .blogPathDirectory {
+  width: 60%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.blogAuthor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #CCCCCC;
+  padding: 2% 0;
+}
+
+.blogAuthor .blogAuthorImage img {
+  border-radius: 50%;
+}
+
+.blogAuthor div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blogAuthor div > * {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+}
+
+.blogAuthor div p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.blogArticle {
+  padding: 2% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blogArticle .blogSubHeading {
+  color: black;
+  padding: 2% 0;
+}
+
+.blogShare {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.blogShare a {
+  padding: 0 1%;
+}
+
+.sectionAbout {
+  background: #EDEDED;
+  padding: 7.5% 0 15% 0;
+}
+
+.sectionAbout .sectionContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sectionAbout .sectionContainer h2 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 8%;
+}
+
+.sectionAbout .sectionContainer .imageContainer {
+  position: relative;
+  border: 15px solid white;
+  max-height: calc(30px + 416px);
+}
+
+.sectionAbout .sectionContainer .imageContainer .stamp {
+  position: absolute;
+  left: -40%;
+  bottom: -35%;
+}
+
+.sectionAbout .sectionContainer .textContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 40%;
+  padding: 2% 5%;
+  position: relative;
+}
+
+.relatedPosts .sectionContainer {
+  padding: 5% 2%;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.relatedPosts .sectionContainer .relatedPostsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 1px solid #EDEDED;
+  max-width: 370px;
+  margin: 2% 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.relatedPosts .sectionContainer .relatedPostsContainer p, .relatedPosts .sectionContainer .relatedPostsContainer h4 {
+  width: 100%;
+  padding: 0 4%;
+}
+
+.relatedPosts .sectionContainer .relatedPostsContainer i {
+  margin-left: 2%;
+}
+
+.commentsSection .sectionContainer {
+  padding: 2%;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.commentsSection .sectionContainer .commentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 2%;
+}
+
+.commentsSection .sectionContainer .commentContainer .commentBubble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #EDEDED;
+  width: 90%;
+  padding: 1% 2%;
+  position: relative;
+}
+
+.commentsSection .sectionContainer .commentContainer .commentBubble:before {
+  content: " ";
+  position: absolute;
+  left: -1%;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-right: 15px solid #EDEDED;
+}
+
+.commentsSection .sectionContainer .commentInputContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding: 4% 0;
+}
+
+.commentsSection .sectionContainer .commentInputContainer form {
+  margin-top: 2%;
+  width: 100%;
+}
+
+.commentsSection .sectionContainer .commentInputContainer form fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.commentsSection .sectionContainer .commentInputContainer form fieldset input, .commentsSection .sectionContainer .commentInputContainer form fieldset textarea {
+  width: 30%;
+  padding: 1% 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.commentsSection .sectionContainer .commentInputContainer form fieldset textarea {
+  width: 100%;
+  resize: none;
+}
+
+.commentsSection .sectionContainer .commentInputContainer form fieldset button {
+  background: #84A016;
+  padding: 1% 2%;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  margin-top: 2%;
+}
+
+.sectionContact .sectionContainer {
+  padding: 5% 2%;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sectionContact .sectionContainer h3 {
+  width: 100%;
+}
+
+.sectionContact .sectionContainer p {
+  width: 60%;
+}
+
+.sectionContact .sectionContainer .contactTypeContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.sectionContact .sectionContainer .contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2% 0;
+  margin: 2% 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionContact .sectionContainer .contactContainer:nth-child(2) {
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+}
+
+.sectionContact .sectionContainer .contactContainer > * {
+  width: 60%;
+}
+
+.sectionContact .sectionContainer .contactContainer h4 {
+  padding: 2% 0;
+}
+
+.sectionContact .sectionContainer form {
+  width: 100%;
+}
+
+.sectionContact .sectionContainer form fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sectionContact .sectionContainer form fieldset input, .sectionContact .sectionContainer form fieldset textarea {
+  width: 30%;
+  padding: 1% 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.sectionContact .sectionContainer form fieldset textarea {
+  width: 100%;
+  resize: none;
+}
+
+.sectionContact .sectionContainer form fieldset input[type="submit"] {
+  margin-top: 2%;
+  width: auto;
+}
+
+nav ul li:hover > a,
+nav ul li:hover > a i,
+nav ul li:hover > a p,
+nav ul li:hover > a h1,
+nav ul li:hover > label i {
+  color: #CCCCCC;
+}
+
+nav ul li:focus-within > a
+nav ul li:focus-within > a i,
+nav ul li:focus-within > a p,
+nav ul li:focus-within > a h1,
+nav ul li:focus-within > label i {
+  color: #CCCCCC;
+}
+
+label[for="hamburgerMenu"]:hover > i,
+label[for="hamburgerMenu"]:focus-within > i {
+  color: #CCCCCC;
+}
+
+button:hover > i,
+button:focus-within > i {
+  color: #CCCCCC;
+}
+
+footer input:hover, footer input:hover::-webkit-input-placeholder, footer input:focus-within::-webkit-input-placeholder, footer input:focus-within {
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+footer input:hover, footer input:hover:-ms-input-placeholder, footer input:focus-within:-ms-input-placeholder, footer input:focus-within {
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+footer input:hover, footer input:hover::-ms-input-placeholder, footer input:focus-within::-ms-input-placeholder, footer input:focus-within {
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+footer input:hover, footer input:hover::placeholder, footer input:focus-within::placeholder, footer input:focus-within {
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+footer button:hover > i,
+footer button:focus-within > i {
+  color: white;
+}
+
+.blogShare a:focus-within > i,
+.blogShare a:hover > i {
+  color: #999999;
+}
+
+.relatedPosts .sectionContainer a:focus-within, .relatedPosts .sectionContainer a:hover {
+  border: 1px solid #CCCCCC;
+  -webkit-box-shadow: 1px 3px 3px #CCCCCC;
+          box-shadow: 1px 3px 3px #CCCCCC;
+  -webkit-transform: scale(105%);
+          transform: scale(105%);
+}
+
+.relatedPosts .sectionContainer a:hover > p,
+.relatedPosts .sectionContainer a:hover > h4 {
+  color: black;
+}
+
+.commentsSection .sectionContainer .commentInputContainer input:hover, .commentsSection .sectionContainer .commentInputContainer input:hover::-webkit-input-placeholder, .commentsSection .sectionContainer .commentInputContainer input:focus-within::-webkit-input-placeholder, .commentsSection .sectionContainer .commentInputContainer input:focus-within, .commentsSection .sectionContainer .commentInputContainer textarea:hover, .commentsSection .sectionContainer .commentInputContainer textarea:hover::-webkit-input-placeholder, .commentsSection .sectionContainer .commentInputContainer textarea:focus-within::-webkit-input-placeholder, .commentsSection .sectionContainer .commentInputContainer textarea:focus-within {
+  border-bottom: 1px solid black;
+  color: black;
+  font-weight: 700;
+}
+
+.commentsSection .sectionContainer .commentInputContainer input:hover, .commentsSection .sectionContainer .commentInputContainer input:hover:-ms-input-placeholder, .commentsSection .sectionContainer .commentInputContainer input:focus-within:-ms-input-placeholder, .commentsSection .sectionContainer .commentInputContainer input:focus-within, .commentsSection .sectionContainer .commentInputContainer textarea:hover, .commentsSection .sectionContainer .commentInputContainer textarea:hover:-ms-input-placeholder, .commentsSection .sectionContainer .commentInputContainer textarea:focus-within:-ms-input-placeholder, .commentsSection .sectionContainer .commentInputContainer textarea:focus-within {
+  border-bottom: 1px solid black;
+  color: black;
+  font-weight: 700;
+}
+
+.commentsSection .sectionContainer .commentInputContainer input:hover, .commentsSection .sectionContainer .commentInputContainer input:hover::-ms-input-placeholder, .commentsSection .sectionContainer .commentInputContainer input:focus-within::-ms-input-placeholder, .commentsSection .sectionContainer .commentInputContainer input:focus-within, .commentsSection .sectionContainer .commentInputContainer textarea:hover, .commentsSection .sectionContainer .commentInputContainer textarea:hover::-ms-input-placeholder, .commentsSection .sectionContainer .commentInputContainer textarea:focus-within::-ms-input-placeholder, .commentsSection .sectionContainer .commentInputContainer textarea:focus-within {
+  border-bottom: 1px solid black;
+  color: black;
+  font-weight: 700;
+}
+
+.commentsSection .sectionContainer .commentInputContainer input:hover, .commentsSection .sectionContainer .commentInputContainer input:hover::placeholder, .commentsSection .sectionContainer .commentInputContainer input:focus-within::placeholder, .commentsSection .sectionContainer .commentInputContainer input:focus-within, .commentsSection .sectionContainer .commentInputContainer textarea:hover, .commentsSection .sectionContainer .commentInputContainer textarea:hover::placeholder, .commentsSection .sectionContainer .commentInputContainer textarea:focus-within::placeholder, .commentsSection .sectionContainer .commentInputContainer textarea:focus-within {
+  border-bottom: 1px solid black;
+  color: black;
+  font-weight: 700;
+}
+
+.commentsSection .sectionContainer .commentInputContainer button:hover, .commentsSection .sectionContainer .commentInputContainer button:focus-within {
+  background-color: #4bb64b;
+}
+
+form[action="contactMessage.php"] input:hover, form[action="contactMessage.php"] input:hover::-webkit-input-placeholder, form[action="contactMessage.php"] input:focus-within::-webkit-input-placeholder, form[action="contactMessage.php"] input:focus-within, form[action="contactMessage.php"] textarea:hover, form[action="contactMessage.php"] textarea:hover::-webkit-input-placeholder, form[action="contactMessage.php"] textarea:focus-within::-webkit-input-placeholder, form[action="contactMessage.php"] textarea:focus-within {
+  border: 1px solid black;
+  color: black;
+  font-weight: 700;
+}
+
+form[action="contactMessage.php"] input:hover, form[action="contactMessage.php"] input:hover:-ms-input-placeholder, form[action="contactMessage.php"] input:focus-within:-ms-input-placeholder, form[action="contactMessage.php"] input:focus-within, form[action="contactMessage.php"] textarea:hover, form[action="contactMessage.php"] textarea:hover:-ms-input-placeholder, form[action="contactMessage.php"] textarea:focus-within:-ms-input-placeholder, form[action="contactMessage.php"] textarea:focus-within {
+  border: 1px solid black;
+  color: black;
+  font-weight: 700;
+}
+
+form[action="contactMessage.php"] input:hover, form[action="contactMessage.php"] input:hover::-ms-input-placeholder, form[action="contactMessage.php"] input:focus-within::-ms-input-placeholder, form[action="contactMessage.php"] input:focus-within, form[action="contactMessage.php"] textarea:hover, form[action="contactMessage.php"] textarea:hover::-ms-input-placeholder, form[action="contactMessage.php"] textarea:focus-within::-ms-input-placeholder, form[action="contactMessage.php"] textarea:focus-within {
+  border: 1px solid black;
+  color: black;
+  font-weight: 700;
+}
+
+form[action="contactMessage.php"] input:hover, form[action="contactMessage.php"] input:hover::placeholder, form[action="contactMessage.php"] input:focus-within::placeholder, form[action="contactMessage.php"] input:focus-within, form[action="contactMessage.php"] textarea:hover, form[action="contactMessage.php"] textarea:hover::placeholder, form[action="contactMessage.php"] textarea:focus-within::placeholder, form[action="contactMessage.php"] textarea:focus-within {
+  border: 1px solid black;
+  color: black;
+  font-weight: 700;
+}
+
+form[action="contactMessage.php"] input[type="submit"]:hover, form[action="contactMessage.php"] input[type="submit"]:focus-within {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 1100px) {
+  html {
+    font-size: 55%;
+  }
+  .sectionAbout .sectionContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sectionAbout .sectionContainer .imageContainer .stamp {
+    width: 60%;
+    left: -30%;
+    bottom: -30%;
+  }
+  .sectionAbout .sectionContainer .textContainer {
+    width: 100%;
+    margin-top: 20%;
+  }
+  .sectionFeatures {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sectionFeatures .imageContainer {
+    display: none;
+  }
+  .sectionFeatures .sectionContainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 880px) {
+  .relatedPosts .sectionContainer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 858px) {
+  header, .blogHeader, .contactHeader, .contactBackgroundContainer {
+    height: 50vh;
+  }
+  .fixedNav {
+    height: auto;
+    background: none;
+    border-bottom: 1px solid transparent;
+  }
+  .fixedNav .mobileMenu {
+    z-index: 2;
+    left: 2%;
+    top: 25%;
+  }
+  .fixedNav ul {
+    top: -100%;
+    background: white;
+    -webkit-transition: 75ms;
+    transition: 75ms;
+  }
+  .fixedNav ul li a h1 {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+  .fixedNav ul li a p {
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .fixedNav ul li a .mobileIcons {
+    display: initial;
+  }
+  .fixedNav ul .logo {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  .sectionContact .sectionContainer .contactTypeContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sectionContact .sectionContainer .contactTypeContainer .contactContainer:nth-child(2) {
+    border: 1px solid transparent;
+  }
+  .sectionContact .sectionContainer form fieldset {
+    border-top: 1px solid #CCCCCC;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sectionContact .sectionContainer form fieldset input, .sectionContact .sectionContainer form fieldset textarea {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 840px) {
+  .sectionExplore .sectionContainer ul li {
+    width: 45%;
+  }
+}
+
+@media (max-width: 710px) {
+  html {
+    font-size: 45%;
+  }
+  .fixedNav ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  nav .logo {
+    width: 100%;
+  }
+  nav .logo a {
+    width: 100%;
+    text-align: center;
+  }
+  .sectionAbout .sectionContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sectionAbout .sectionContainer .imageContainer {
+    width: 50%;
+  }
+  .sectionAbout .sectionContainer .imageContainer .stamp {
+    width: 60%;
+    left: -30%;
+    bottom: -30%;
+  }
+  .sectionAbout .sectionContainer .textContainer {
+    width: 100%;
+    margin-top: 20%;
+  }
+  .sectionFeatures {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sectionFeatures .imageContainer {
+    display: none;
+  }
+  .sectionFeatures .sectionContainer {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sectionFeatures .sectionContainer .textContainer {
+    padding: 2% 0;
+    width: 90%;
+    text-align: center;
+  }
+  .sectionExplore .sectionContainer ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sectionExplore .sectionContainer ul li {
+    width: auto;
+  }
+  .sectionInformation {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sectionInformation .imageContainer {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .sectionInformation .textContainer {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+    text-align: center;
+  }
+  footer .bleed {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .bleed > * {
+    padding: 3% 0;
+    width: auto;
+    height: auto;
+    border: none;
+  }
+  footer .bleed .siteMap ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+  }
+  footer .bleed .siteMap ul li {
+    width: auto;
+    height: auto;
+    border-right: 1px solid #CCCCCC;
+    padding: 0 5%;
+    margin: 2% 0;
+  }
+  footer .bleed form input {
+    text-align: center;
+  }
+}

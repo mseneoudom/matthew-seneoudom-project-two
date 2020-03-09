@@ -1,0 +1,159 @@
+// // Hover Link for Orange Underline Effect for LI and orangeUnderlineContainer Items
+// .orangeUnderlineContainer, li{
+//     // transition-duration: 0.3s;       THESE DONT WORK FOR SOME REASON
+//     // transition-property: all;
+//     &:hover,
+//     &:focus{ 
+//         .orangeUnderline{
+//         width:100%;
+//         transition-duration: 0.3s;
+//         transition-property: all;
+//         }
+//     }
+// }
+
+// // HOVER LINK FOR STYLED BUTTON/LINKS
+// a.styleBorderOrange{
+//     &:hover,
+//     &:focus{
+//         border:2px solid $primaryOrange;
+//         background: $lightBlack;
+//         transition:0.3s;
+//         color:#fff;
+//     }
+// }
+
+// nav label i, nav ul li{
+//     &:hover, &:focus{
+//         color:red;
+//     }
+//     &:hover > i , &:focus> i{
+//         color:red;
+//     }
+// }
+
+// nav ul li:hover > a i,{
+//     border:1px solid red;
+//     color: red;
+// }
+
+nav ul li{
+    &:hover >a,
+    &:hover >a i, 
+    &:hover >a p,
+    &:hover >a h1,
+    &:hover >label i{
+        color:$lightPink;
+    }
+    &:focus-within >a
+    &:focus-within >a i, 
+    &:focus-within >a p,
+    &:focus-within >a h1,
+    &:focus-within >label i{
+        color:$lightPink;
+
+    }
+}
+
+label[for="hamburgerMenu"]{
+    &:hover > i,
+    &:focus-within > i{
+        color:$lightPink;
+    }
+}
+
+button{
+    &:hover > i,
+    &:focus-within > i{
+        color:$lightPink;
+    }
+}
+
+footer{
+    input{
+        &:hover,
+        &:hover::placeholder,
+        &:focus-within::placeholder,
+        &:focus-within{
+            border-bottom: 1px solid white;
+            color:white;
+        }
+    }
+    button{
+        &:hover > i,
+        &:focus-within > i{
+            color:white;
+        }
+    }
+}
+
+
+.blogShare{
+        a{
+        &:focus-within > i,
+        &:hover > i{
+            color:$brownGrey;
+        }
+    }
+}
+
+.relatedPosts{
+    .sectionContainer{
+        a{
+            &:focus-within,
+            &:hover{
+                border:1px solid $lightPink;
+                box-shadow: 1px 3px 3px $lightPink;
+                transform: scale(105%);
+            }
+
+            &:hover >p,
+            &:hover >h4{
+                color:black;
+            }
+        }
+    }
+}
+
+.commentsSection{
+    .sectionContainer{
+        .commentInputContainer{
+            input, textarea{
+                &:hover,
+                &:hover::placeholder,
+                &:focus-within::placeholder,
+                &:focus-within{
+                    border-bottom: 1px solid black;
+                    color:black;
+                    font-weight:700;
+                }
+            }
+            button{
+                &:hover,
+                &:focus-within{
+                    background-color: rgb(75, 182, 75);
+                }
+            }
+        }
+    }
+}
+
+form[action="contactMessage.php"]{
+    input, textarea{
+        &:hover,
+        &:hover::placeholder,
+        &:focus-within::placeholder,
+        &:focus-within{
+            border: 1px solid black;
+            color:black;
+            font-weight:700;
+        }
+    }
+    input[type="submit"]{
+        &:hover,
+        &:focus-within{
+            background-color: black;
+            color:white;
+        }
+    }
+}

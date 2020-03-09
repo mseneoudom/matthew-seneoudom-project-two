@@ -1,0 +1,16 @@
+// Mixins @include
+@mixin fontSize($fontValue){
+	font-size: $fontValue * 1px;
+	font-size: ($fontValue/10) * 1rem;
+}
+
+@mixin playfairFont{font-family: 'Playfair Display'}
+@mixin poppinsFont{font-family: 'Poppins'}
+
+$veryLightPink: #EDEDED;
+$lightPink: #CCCCCC;
+$turquoise: #A4F1DC;
+$yellowOrange: #F6AB09;
+$bsGreen:#84A016;
+$brownGrey:#999999;
+

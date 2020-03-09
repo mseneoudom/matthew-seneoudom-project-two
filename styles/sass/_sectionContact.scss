@@ -1,0 +1,70 @@
+.sectionContact{
+    .sectionContainer{
+        padding:5% 2%;
+        background:white;
+        display:flex;
+        flex-wrap:wrap;
+
+
+        h3{
+            width:100%;
+        }
+
+        p{
+            width:60%;
+        }
+
+        .contactTypeContainer{
+            width:100%;
+            display:flex;
+            justify-content: space-evenly;
+
+            }
+            .contactContainer{
+                display:flex;
+                padding: 2% 0;
+                margin:2% 0;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                
+            &:nth-child(2){
+                border-left:1px solid $lightPink;
+                border-right:1px solid $lightPink;
+            }
+
+            >*{
+                width:60%;
+            }
+            h4{
+                padding:2% 0;
+            }
+
+        }
+        form{
+            width:100%;
+
+            fieldset{
+            display:flex;
+            justify-content:space-between;
+            flex-wrap:wrap;
+            
+            input, textarea{
+                width:30%;       
+                padding:1% 0;
+                background:none;
+                border:none;
+                border-bottom:1px solid $lightPink;
+                }
+            textarea{
+                width:100%;
+                resize:none;
+                }
+            input[type="submit"]{
+                margin-top:2%;
+                width:auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.sectionAbout{
+    background:$veryLightPink;
+    padding:7.5% 0 15% 0;
+
+    .sectionContainer{
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+
+
+        h2{
+            width:100%;
+            text-align: center;
+            padding-bottom:8%;
+        }
+        
+        .imageContainer{
+            position:relative;
+            border:15px solid white;
+            max-height:calc(30px + 416px);
+            .stamp{
+                position:absolute;
+                left:-40%;
+                bottom:-35%;
+            }
+        }
+
+        .textContainer{
+            display:flex;
+            flex-wrap:wrap;
+            width:40%;
+            padding:2% 5%;
+            position:relative;
+
+
+            .overline{
+                position:absolute;
+                top:0;
+                left:12%;
+                height:2px;
+                width:10%;
+                background:black;
+            }
+        }
+    }
+}

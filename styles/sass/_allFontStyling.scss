@@ -1,0 +1,300 @@
+// Global Settings
+html{
+    font-size:62.5%
+}
+
+.bleed{
+    max-width:1400px;
+    width:90%;
+    margin:0 auto;
+}
+
+*{
+    list-style:none;
+    text-decoration:none;
+
+    margin:0;
+    padding:0;
+}
+
+img{
+    max-width:100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+fieldset{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    padding:2% 0;
+}
+
+// Global Font Stylings 
+
+h1{
+    @include playfairFont;
+    @include fontSize(58);
+    font-weight:bold;
+    line-height:26px;
+    letter-spacing:1.4px;
+    text-align:center;
+    color:black;
+}
+
+h2{
+    @include poppinsFont;
+    @include fontSize(16);
+    font-weight:400;
+    letter-spacing:0.3px;
+    letter-spacing:8px;
+    color:$brownGrey;
+}
+
+h3{
+    @include playfairFont;
+    @include fontSize(48);
+    line-height:60px;
+    letter-spacing:-1.2px;
+    color:black;
+}
+
+h4{
+    @include poppinsFont;
+    @include fontSize(16); 
+    font-weight:600;
+}
+
+nav ul li a , nav ul li a p, nav ul li a i, p, fieldset legend, label i, input[name="searchBar"]{
+    @include poppinsFont;
+    @include fontSize(14);
+    color:black;
+}
+
+nav .mobileIcons{
+    color:black;
+}
+
+nav a{
+    font-weight: bold;
+}
+
+.fixedNav{
+    ul{
+        li{
+            a{
+                .shoppingBagQuantity{
+                    p{
+                    @include fontSize(10);
+                    color:black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+p{
+    color:$brownGrey;
+    line-height:30px;
+}
+
+.currentPage{ //on home page greys out "Home on Nav"
+    color:$lightPink;
+}
+
+.quoteAuthor{ //Quote Author Styling
+    color:black;
+    font-weight:bold;
+}
+
+.sectionTestimonial{
+    .quoteText{ //Quote in Testimonial Styling
+        @include playfairFont;
+        @include fontSize(24);
+        text-align:center;
+        line-height:36px;
+        font-style: italic;
+    }
+    .starReviewContainer{
+        i{ //Star Review Styling
+            @include fontSize(24);
+            color:$yellowOrange;
+        }
+    }
+    p{
+        a{ //Link in review styling
+            color:black;
+        }
+    }
+}
+
+//Specific Styling for fonts in Contact Us Section
+.sectionInformation{
+    .state{
+        color:black;
+        font-weight:bold;
+        @include playfairFont;
+        span{
+            color:$lightPink;
+        }
+    }
+    .email{
+        span{
+            color:black;
+            font-weight:bold;
+            @include playfairFont;
+        }
+    }
+    .phone{
+        font-weight:bold;
+    }
+    .phoneNumber{
+        color:black;
+        font-weight:bold;
+        @include playfairFont;
+        @include fontSize(30);
+    }
+}
+
+// Specific Styling for Footer
+footer{
+    .siteMap{
+        a, fieldset legend{
+            color:$brownGrey
+        }
+        .termsConditions{
+            color:white;
+        }
+    }
+    fieldset{
+        legend{
+            color:$brownGrey
+        }
+    }
+    .socialMediaNav{
+        i{
+            color:white;
+        }
+    }
+}
+
+footer{
+    form{ //Form Font Styling for Footer
+        input, i, input[placeholder]{
+            color:$lightPink;
+            @include fontSize(14);
+            @include poppinsFont;
+        }
+        i{
+            @include fontSize(18);
+        }
+    }
+}
+
+//Feature Section Icon Styling
+.sectionFeatures{
+    .sectionContainer{
+        i{
+            height:100%;
+            margin:1% 2%;
+            @include fontSize(24);
+        }
+    }
+}
+
+.sectionTestimonial{ //Testimonial Section Button Styling
+    button{
+        position:absolute;
+        background:none;
+        border:1px solid transparent;
+        @include fontSize(40);
+        color:$brownGrey;
+    }
+}
+
+.blogShare{ //Share Section with Social Media Links/Icons
+    a{
+        i{
+            @include fontSize(18);
+            color:$lightPink;
+        }
+        .fa-twitter{ //Twitter Logo Color
+            color:#00acee;
+        }
+    }
+}
+
+#blogBody{
+    h3{// All H3s in Blog Web Page same Font Styling
+        width:100%;
+        border-bottom:1px solid $lightPink;
+        @include fontSize(28);
+    }
+}
+.blogTitle{ //Blog Title - Universal Title Fonts
+    @include playfairFont;
+    @include fontSize(35);
+    font-weight:bold; 
+    line-height:60px;
+    letter-spacing:-1.2px;
+    color:black;
+}
+
+.relatedPosts{ //Fonts in the related post box for Blog page
+    p, h4{
+        color:$brownGrey;
+    }
+}
+
+//Comment Section for Blog Page
+.commentsSection{
+    .commentInputContainer{
+        button{ //Submit Button for Comments Section
+            @include poppinsFont;
+            @include fontSize(12);
+            font-weight: bold;
+            color:white;
+        }
+    }
+}
+.commentUsername{ //Username for commenter
+    font-weight: bold;
+    color:black;
+
+    a{ //Reply link
+        color:turquoise;
+        font-style: italic;
+    }
+}
+.commentTimeEntry{ //Time posted for comment
+    @include fontSize(12);
+}
+
+
+.sectionContact{
+    i{ //Contact Icon Size
+        @include fontSize(20);
+    }
+}
+
+form[action="contactMessage.php"]{ //Button submit for contact message in Contact web page
+    input[type="submit"]{
+        margin-top:2%;
+        width:auto;
+        text-transform: uppercase;
+        font-weight:bold;
+        color:black;
+        @include fontSize(12);
+        }
+}
+.overline{ // Horizontal Line Item
+    position:absolute;
+    top:0;
+    left:12%;
+    height:2px;
+    width:10%;
+    background:black;
+}
+

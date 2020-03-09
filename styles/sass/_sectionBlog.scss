@@ -1,0 +1,78 @@
+#blogBody{
+    background:$veryLightPink;  
+}
+
+.blogSection{
+    .sectionContainer{
+        padding:5% 2%;
+
+        background:white;
+
+        top:-100px;  
+        position: relative;
+        
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+
+
+        h2, h3,.blogPathDirectory{
+            width:60%;
+            margin-bottom:5%;
+            text-align: center;
+        }
+    }
+}
+
+// Start of Blog Author Section - Name Date Category Tags
+.blogAuthor{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid $lightPink;
+    padding:2% 0;
+    .blogAuthorImage{
+        img{
+            border-radius:50%;
+        }
+    }
+    div{
+        display:flex;
+        flex-wrap:wrap;
+        align-items: center;
+        >*{
+            margin:0;
+            padding:0;
+            width:100%;
+            text-align:left;
+        }
+        p{
+            flex:1;
+        }
+    }
+}
+// End of Blog Author Section
+
+.blogArticle{
+    padding:2% 0;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+    .blogSubHeading{
+        color:black;
+        padding:2% 0;
+    }
+}
+
+.blogShare{
+    display:flex;
+    align-items: center;
+    width:100%;
+
+    a{
+        padding:0 1%;
+    }
+}
+// End of Blog Section

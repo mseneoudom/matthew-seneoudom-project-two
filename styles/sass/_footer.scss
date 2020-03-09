@@ -1,0 +1,63 @@
+footer{
+    background:rgb(42, 41, 41);
+    padding:2% 0;
+
+    .bleed{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+
+    }
+    .siteMap{
+        display:flex;
+        flex:1 0 60%;
+        border-bottom:1px solid $brownGrey;
+
+
+
+
+        ul{
+            display:flex;
+            flex-direction: column;
+            flex-wrap:wrap;
+            width:100%;
+            li{
+                height:20%;
+            }
+        }
+    }
+    form{
+        flex:1 0 40%;
+        position: relative;
+        border-bottom:1px solid $brownGrey;
+
+
+        input{
+            padding:2% 0;
+            width:100%;
+            background:none;
+            border:none;
+            border-bottom:1px solid $brownGrey;
+        }
+        button{
+            position: absolute;
+            right:0;
+
+            background:none;
+            border:1px solid transparent;
+        }
+    }
+    .copyrightContainer{
+        flex:1 0 85%;
+        padding-top:2%;
+    }
+    .socialMediaNav{
+        flex:1 0 15%;
+        padding-top:2%;
+        
+        ul{
+            display:flex;
+            justify-content: space-between;
+        }
+    }
+}

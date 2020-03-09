@@ -1,0 +1,33 @@
+.relatedPosts{
+    
+    .sectionContainer{
+        padding:5% 2%;
+        background:white;
+        display:flex;
+        justify-content: space-between;
+        flex-wrap:wrap; 
+
+        .relatedPostsContainer{
+            display:flex;
+            flex-wrap:wrap;
+            border:1px solid $veryLightPink;
+            max-width:370px;
+            margin:2% 0;
+            justify-content: center;
+
+            .imageContainer{
+                // border:1px solid red;
+            }
+
+            p, h4{
+                width:100%;
+                padding:0 4%;
+            }
+
+            i{
+                margin-left:2%;
+            }
+        }
+    }
+}
+

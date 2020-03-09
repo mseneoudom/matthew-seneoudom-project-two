@@ -1,0 +1,42 @@
+.sectionTestimonial{
+    padding:5% 0;
+    background: url(../media/pattern.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+
+    .sectionContainer{
+    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    background:white;
+    padding:4% 0;
+    }
+
+    .leftArrowButton{
+        left:-5%;
+        top:50%;
+    }
+    .rightArrowButton{
+        right:-5%;
+        top:50%;
+    }
+
+    .textContainer{
+        display:flex;
+        justify-content: center;
+        flex-wrap:wrap;
+        padding:2% 10%;
+
+        >*{
+            padding:4% 0;
+        }
+
+        .starReviewContainer{
+            width:100%;
+            text-align:center;
+            padding:0;
+        }
+    }
+}
